@@ -3,10 +3,10 @@
 SunDay Wellness Tracker is a comprehensive health monitoring device based on the Atmega328P MCU. It measures UV exposure, differentiates between artificial and natural light exposure for the user, and assesses air quality. The real-time data captured by our advanced sensors is transmitted to a user-friendly Flutter-based mobile application via Bluetooth for drawing inferences from the data. This app not only displays the data but also stores it in the Firebase Cloud Realtime Database for long-term analysis and health tracking.
 
 #### SunDay-Wellness-Tracker
-![SunDay-Wellness-Tracker](images/image3.png)
+![SunDay-Wellness-Tracker](images/image2.png)
 
 #### SunDay-Wellness-Tracker with 3D printed enclosure
-![ SunDay-Wellness-Tracker with 3D printed enclosure](images/image2.png)
+![ SunDay-Wellness-Tracker with 3D printed enclosure](images/image3.png)
 
 ## Development Procedure
 
@@ -20,6 +20,8 @@ SunDay Wellness Tracker is a comprehensive health monitoring device based on the
 - Implemented a buzzer in the device to indicate the user when the AQI went over 3, based on timer interrupts.
 - Devised a firmware for synchronizing tasks of the device and smooth wireless operation with the mobile device over Bluetooth.
 - Assembled all components on a perfboard, ensuring effective system functionality.
+
+The Firmware written for the device can be found in the [Sunday Firmware Folder](Sunday Firmware/)
 
 #### Device Firmware Flowchart
 ![Development Procedure Flowchart](images/image9.png)
@@ -47,6 +49,7 @@ After every 10 samples, calculates the exposure percentages for natural and arti
 - Crafted a visually appealing interface to represent sensor data and health insights effectively.
 - Focused on enhancing user experience by providing intuitive navigation and actionable insights.
 
+The  Flutter Application written for the device can be found in the [Sunday Flutter Application Folder](Sunday Flutter Application/)
 #### Mobile Application Flowchart
 ![Mobile Application Flowchart](images/image10.png)
 - Main.dart:
@@ -65,6 +68,7 @@ Handles the visualization of light exposure data (natural vs. artificial light).
 Shows the Air Quality Index (AQI) data in a line chart format. Includes functionalities to fetch AQI data from Firebase and display it along with time-based warnings for high AQI values.
 - General Workflow:
 The app starts with the main.dart, which sets up the necessary controllers and routes. The dashboard provides navigation to various functionalities like Bluetooth connections, data displays, and settings. Bluetooth Controller manages the connection and data reception from an external device. Data received from the device is stored in Firebase and displayed in different formats (charts, graphs) on respective pages.
+
 #### Mobile Application Interface
 
 <p float="left">
