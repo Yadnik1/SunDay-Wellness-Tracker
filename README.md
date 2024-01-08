@@ -21,7 +21,7 @@ SunDay Wellness Tracker is a comprehensive health monitoring device based on the
 - Devised a firmware for synchronizing tasks of the device and smooth wireless operation with the mobile device over Bluetooth.
 - Assembled all components on a perfboard, ensuring effective system functionality.
 
-The Firmware written for the device can be found in the [Sunday Firmware Folder](Sunday Firmware/)
+The Firmware written for the device can be found in [Sunday Firmware](Sunday Firmware/) Folder.
 
 #### Device Firmware Flowchart
 ![Development Procedure Flowchart](images/image9.png)
@@ -49,7 +49,7 @@ After every 10 samples, calculates the exposure percentages for natural and arti
 - Crafted a visually appealing interface to represent sensor data and health insights effectively.
 - Focused on enhancing user experience by providing intuitive navigation and actionable insights.
 
-The  Flutter Application written for the device can be found in the [Sunday Flutter Application Folder](Sunday Flutter Application/)
+The  Flutter Application written for the device can be found in the [Sunday Flutter Application](Sunday Flutter Application/) Folder.
 #### Mobile Application Flowchart
 ![Mobile Application Flowchart](images/image10.png)
 - Main.dart:
