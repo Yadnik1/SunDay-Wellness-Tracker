@@ -21,7 +21,7 @@ SunDay Wellness Tracker is a comprehensive health monitoring device based on the
 - Devised a firmware for synchronizing tasks of the device and smooth wireless operation with the mobile device over Bluetooth.
 - Assembled all components on a perfboard, ensuring effective system functionality.
 
-The Firmware written for the device can be found in [Sunday Firmware](Sunday Firmware/) Folder.
+The Firmware written for the device can be found in Sunday Firmware Folder.
 
 #### Device Firmware Flowchart
 ![Development Procedure Flowchart](images/image9.png)
@@ -49,7 +49,7 @@ After every 10 samples, calculates the exposure percentages for natural and arti
 - Crafted a visually appealing interface to represent sensor data and health insights effectively.
 - Focused on enhancing user experience by providing intuitive navigation and actionable insights.
 
-The  Flutter Application written for the device can be found in the [Sunday Flutter Application](Sunday Flutter Application/) Folder.
+The  Flutter Application written for the device can be found in the Sunday Flutter Application Folder.
 #### Mobile Application Flowchart
 ![Mobile Application Flowchart](images/image10.png)
 - Main.dart:
@@ -83,3 +83,8 @@ The app starts with the main.dart, which sets up the necessary controllers and r
 
 #### Firebase Cloud Data Real-time Database
 ![Firebase Cloud Data Real-time Database](images/image7.png)
+
+
+## Conclusion
+
+The SunDay Wellness Tracker represents a significant leap in personal health monitoring, merging advanced sensor technology with user-centric software solutions. By harnessing the power of the Atmega328P MCU and integrating it seamlessly with a Flutter-based mobile application, the project sets a new standard in environmental health awareness. The real-time monitoring and analysis of UV exposure, light sources, and air quality, presented through an intuitive and interactive interface, empowers users with actionable insights into their daily wellness routines. This project not only serves as a benchmark in wearable health technology but also opens avenues for future enhancements in personalized healthcare and wellness tracking.
